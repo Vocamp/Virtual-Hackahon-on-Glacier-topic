@@ -1,0 +1,124 @@
+Term,Type,Definition,Notes
+Ablation,process,"All processes that remove snow, ice, or water from a snowfield, glacier, etc., that is typically melt, evaporation, sublimation as well as wind erosion, avalanches, calving, etc.","The definitions in the GCW glossary are quite problematic.  I've copied my summary of the issues with this term below:
+
+There are three main inconsistencies to resolve with this set of definitions:
+
+1. Prior to 1980, the term ablation was not used to describe mechanical processes for removal of snow or ice (e.g., wind erosion, avalanches, calving, etc.) so many definitions do not include these processes.  Resolving this might include splitting the term into a pre-1980 version and a post-1980 version.  Alternately a single term with the more inclusive meaning could be used if the community does not object.  A semantic annotation to the effect that the definition was different prior to 1980 should be made in any ontology using the term.
+
+2. The term is used both as a process and as an amount of mass removed.  Semantically speaking these are two distinct concepts (e.g., ablation results in ablation_amount of ice loss), though ablation_amount would more likely be an attribute.
+
+3. Semantically speaking it is problematic to use the term ablation as if it were a synonym of surface ablation, when there are other types of ablation (e.g., internal ablation, basal ablation, frontal ablation, etc.).  Some definitions do this as well (e.g., NSIDC accessed 2016).  In general, it looks like this is related to the purpose or generality of the glossary from which the term came; so may be an easy issue to resolve.
+
+Other issues:
+
+a. Some definitions include only snow and ice; while others include ""water in any form"".  How to handle this depends on the resolution to the inconsistencies above.
+
+b. Some definitions state that ablation is a process affecting only glaciers, or only glaciers and snow-fields, or only snow cover, or glaciers, floating ice or snow cover. How to handle this depends on the resolution to the inconsistencies above.
+
+c. Some definitions include additional discussion of the the physics involved which would be useful for connecting glacier ontologies to atmospheric, solar, etc. ontologies.  This information should be captured no matter how the inconsistencies above are resolved."
+Ablation zone,,"The part of the glacier, usually at lower elevations, where ablation exceeds accumulation in magnitude, that is, where the cumulative mass balance relative to the start of the mass-balance year is negative. Unless qualified, for example by giving a date within the year, references to the ablation zone refer to its extent at the end of the mass-balance year. The extent of the ablation zone can vary strongly from year to year. A synonym of ablation area.",
+Abrasion,process,"Physical wearing and grinding of a surface through friction and impact by material carried in air, water, or ice; with resulting movement of debris.",
+Accumulation,process,"All processes by which snow, ice, or water in any form are added to a glacier, floating ice or snow cover. These include direct precipitation of snow, ice or rain, condensation of ice from vapour, and transport of snow and ice to the glacier.","Like ablation, accumulation is one of the least consistently defined terms in the GCW glossary.  My summary notes about the range of definitions follow:
+
+This term is used both as a process and as an amount of mass added. Semantically speaking these are two distinct concepts (e.g., accumulation results in accumulation_amount of ice or snow gain), though accumulation_amount would more likely be an attribute.
+
+The scope of this term varies depending on the definition.  Some definitions constrain themselves snow or ice added to glaciers; while others also include ice fields, snow cover, and/or floating ice.  How to resolve this depends on the scope desired.
+
+Some definitions include additional discussion of the the physics involved which would be useful for connecting glacier ontologies to atmospheric, hydrologic, etc. ontologies.  This information should be captured no matter how the inconsistencies above are resolved."
+Accumulation zone,,"That part of a glacier's surface, usually at higher elevations, on which there is net accumulation of snow, which subsequently turns into firn and then glacier ice. A synonym of accumulation area and the opposite of ablation area.",
+Avalanche,,"A mass of snow, firn, rock, and/or ice falling down a mountain or incline often entraining additional material such as earth, rocks, and debris of all types as it descends. Avalanches may be characterized as loose and turbulent, or slab; either type may be dry or wet according to the nature of the snow forming it, although dry snow usually forms loose avalanches and wet snow forms slabs. A large avalanche sweeps a current of air along with and in front of it as an avalanche wind, which supplements its already tremendous destructive force. The duration of an avalanche is typically seconds to minutes. In practice, the term usually refers to the snow avalanche. In the United States, the term snow slide is commonly used to mean a snow avalanche.",
+Bergschrund,Parts of a glacier,"In ice-dynamics, a single large crevasse or series of sub-parallel crevasses that develop at the head of a cirque or valley glacier which separates the moving glacier ice from the rock wall and the ice apron (stagnant ice) attached to it.  The bergschrund is the headward boundary of the glacier. Bergschrund is an Anglicized word of German origin.
+
+In hydrology and other non-ice dynamics fields, a single large crevasse or series of sub-parallel crevasses that develop at the head of a cirque or valley glacier which separates the moving glacier ice from the rock wall and the ice apron (stagnant ice) attached to it. The stagnant ice above the bergschrund is part of the glacier.  Bergschrund is an Anglicized word of German origin.",
+Calving,process,"The component of ablation consisting of the breaking off of discrete pieces of ice from a glacier margin into lake or sea water, producing icebergs, or onto land in the case of dry calving. Calving excludes frontal melting and sublimation, although in practice it may be difficult to measure the phenomena separately. For example subaqueous frontal melting may lead to the detachment of icebergs by undercutting or by encouraging the propagation of crevasses.","Another inconsistently defined term.  My notes follow:
+
+All of these terms refer to roughly the same process, its source (calving glacier) or its results (calved ice); however,
+
+1. some definitions assume that calving can only happen into water while others allow calving on land
+
+2. some definitions allow calving to occur from any form of ice of land origin, while others restrict it to glaciers or some subset of all of the types of ice of land origin
+
+Whether several definitions are needed or whether the community will accept a general inclusive definition is the question. In any case, it should be recognized that calving is an ablative process that results in icebergs if calving into water.  What ice calved onto land would be called is not obvious, especially since the only definition of calved ice excludes ice falling onto land.
+
+Whatever decisions are made need to be consistent across all related terms."
+Cirque,Landform,"A bowl-shaped, amphitheater-like depression eroded into the head or the side of a glacier valley by a cirque glacier. Typically, a cirque has a lip at its lower end and often contains a rock basin with a tarn (q.v.) . The term is French and is derived from the Latin word circus. Has synonyms corrie or cwm in Britain.",
+Crevasses,Parts of a glacier,"Crevasses are open fissures in glacier ice. Crevasses form where the speed of the ice is variable, such as in icefalls and at valley bends. The surface may appear blistered with crevasses where the ice flows over bedrock knobs and ridges. Crevasses are a glacier's most awesome features and are a constant hazard for climbers. They form where adjacent parts of a glacier are moving at different speeds. This unequal rate of flow produces stresses in the ice that cause it to break. Groups of crevasses often form where the glacier flows over a steep place in its bed. The ice moves faster here, and pulls apart, and a crevasse is formed. Although a large crevasse may seem to be bottomless to the observer, most crevasses are less than 100 feet deep because ice pressure tends to close the open spaces in the ice below that depth.",
+Drift,,"A 19th century term, still in use, to describe all sedimentary deposits associated with glaciers, glacial meltwater and icebergs, regardless of the size or amount of sorting.",
+Equilibrium line,,"The spatially averaged boundary at a given moment, usually chosen as the seasonal mass budget minimum at the end of summer, between the region on a glacier where there is a net annual loss of ice mass (ablation area) and that where there is a net annual gain (accumulation area). The altitude of this boundary is referred to as equilibrium line altitude (ELA).  It coincides with the snowline only if all mass exchange occurs at the surface of the glacier and there is no superimposed ice.  Unless qualified by a different adjective, references to the equilibrium line refer to the Annual equilibrium line.",
+Evaporation,process,"A type of vaporization, that occurs on the surface of a liquid as it changes into the gaseous phase. The surrounding gas must not be saturated with the evaporating substance. ",not in the GCW glossary!
+Firn,,"Old snow which has been transformed into a dense material. Firn is characterized by the fact that: (a) the particles are to some extent joined together, but that (b) the air interstices still communicate with each other. (a) distinguishes it from snow and (b) from ice.  
+
+Firn has a density typically between 400-830 kg/m3. Snowflakes are compressed under the weight of the overlying snowpack. Individual crystal near the melting point have slick liquid edges allowing them to glide along other crystal planes and to readjust the space between them. Where the crystals touch they bond together, squeezing the air between them to the surface or into bubbles. During summer we might see the crystal metamorphosis occur more rapidly because of water percolation between the crystals. By summer's end the result is firn -- a compacted snow with the appearance of wet sugar, but with a hardness that makes it resistant to all but the most dedicated snow shovelers! Several years are usually required for the snow to settle and to season into the substance we call glacier ice.  Firn is generally up to a few tens of metres thick on a temperate glacier that is close to a steady state, and up to or more than 100 m thick in the dry snow zone on the ice sheets.",
+Firn Line,,"The set of points on the surface of a glacier delineating the firn area and, at the end of the mass-balance year, separating firn (usually above) from glacier ice (usually below).In steady state and equilibrium, and in the absence of superimposed ice, the firn line coincides with the equilibrium line. However, the equilibrium line will generally be above the firn line in a year of negative mass balance; in a year of positive mass balance it will in general be below the firn line of the previous year.",
+glacier,,"A large, perennial accumulation of ice, snow, rock, sediment and liquid water originating on land and moving down slope under the influence of its own weight and gravity; a dynamic river of ice. Glaciers are classified by their size, location, and thermal regime.","Also inconsistently defined - notes:
+
+Strangely enough, these definitions are fairly consistent except in a few areas:
+
+1. Whether or not a mass of ice must currently show movement to be considered a glacier or not
+
+2. What is the relationship between ice sheets and glaciers (i.e., which is the parent in a parent/child relationship or whether they are distinct terms) 
+
+If these two questions were answered, it seems likely that a coalesced definition (or definitions) could be fairly straightforward to construct."
+Glacier lake,,"An accumulation of standing liquid water on (supraglacial), in (englacial), or under (subglacial) a glacier.",
+ice,,"The solid state of a substance usually found as a gas or liquid.
+
+When speaking about ice on Earth, usually water ice is meant - the solid, crystalline form of water found in the atmosphere as snow crystals, hail, ice pellets, etc., and on the earth's surface in forms such as hoarfrost, rime, glaze, sea ice, glacier ice, ground ice, frazil, anchor ice, etc.  
+
+This form of water is, strictly speaking, called ice Ih, the Roman numeral I distinguishing it from more than a dozen other phases and the letter h distinguishing it from the metastable cubic phase ice Ic. Ice Ih is the only one of the several known phases of water ice that is stable at commonly occurring temperatures and pressures. (Some of the other forms have very unusual properties, ice VII, for example, being stable only at pressures above 22 400 kg/cm^2, but then existing at temperatures up to about 100C.) 
+
+It has an open structure with a specific gravity of 0.9166 which is slightly less than water; because the water molecules bond to their neighbors covalently only in four directions; it therefore floats on higher density water, where broken molecular bonds permit closer packing. All commonly occurring forms of ice are crystalline, although large single crystals are relatively rare except in glaciers. The ice crystal lattice possesses hexagonal symmetry that manifests itself in the gross forms of such single crystals as are sometimes found in snow. At an air pressure of one atmosphere, ice melts at 0 C by definition of the Celsius temperature scale. (Strictly speaking the equilibrium point among water, ice, and vapor occurs at +0.01C, the triple point.) On the other hand, ice does not invariably form in liquid water cooled below this temperature; it has a tendency to supercool, more so in the absence of ice nuclei. 
+
+In permafrost regions, ice may occupy voids in soils and rocks and may develop in a variety of forms. Ice may be colourless to pale blue or greenish-blue. It may appear white due to included gas bubbles; in exposures, ground ice may also appear black.
+
+In nature ice is formed either by: (a) the freezing of water, (b) the condensation of atmospheric water vapour direct into ice crystals, (c) the compaction of snow with or without the motion of a glacier, or (d) the impregnation of porous snow masses with water which subsequently freeze.
+",
+Ice dam,Parts of a glacier,Ice dams form when glacier blocks a river and forms a lake. Glacial ice dams have historically resulted in massive outburst floods. ,
+Ice falls,Parts of a glacier,An area of crevassed ice on a glacier. Caused when the base of the glacier flows over steep topography.,
+Melting,Process,"The physical process by which a solid changes phase into a liquid. For water, this process requires approximately 80 calories of heat energy for each gram converted. A synonym of fusion.",
+Meltwater,,"Water resulting from melting of ice in any form (snow, firn, glacier ice, etc.).",
+Moraine,Landform,"A general term for unstratified and unsorted deposits of sediment that form through the direct action of, or contact with, glacier ice. Many different varieties are recognized on the basis of their position with respect to a glacier. Moraines are left after a glacier has receded, providing evidence of its former extent. Common forms are ground moraine, formed under a glacier; lateral moraine, along the sides; medial moraine, down the center; and end moraine, deposited at the terminus.",
+névé ,,"Young, granular snow that has been partially melted, refrozen and compacted; neve that survives a full season is called firn; firn becomes glacial ice","Another inconsistently defined term.  My notes follow:
+
+There are several inconsistencies here:
+
+1. Neve as a term for snow that has been partially melted, refrozen and compacted and which eventually will become firn (a kind of ice)
+
+2. Neve as a synonym of firn (still a kind of ice)
+
+3. A synonym of snowfield (in other words an area on the surface of the Earth)
+
+4. A synonym of accumulation zone (another area on the surface of the Earth)
+
+All of these definitions are further complicated by whatever decisions are made about firn, which is also a very inconsistently defined term."
+Nivation,process,"A collective name for the different processes that occur under a snow patch. The primary processes are mass wasting and the freeze and thaw cycle, in which fallen snow gets compacted into firn. Nivation includes various sub-processes related to snow patches which may be immobile or semi-permanent. These sub-processes include erosion, weathering, and meltwater flow from beneath the snow patch.",
+Outwash Plain,Landform,"A broad, low-slope angle alluvial plain composed of glacially eroded, sorted sediment (termed outwash), that has been transported by meltwater. The alluvial plain begins at the foot of a glacier and may extend for miles. Typically, the sediment becomes finer grained with increasing distance from the glacier terminus. Usually found in close spatial association with moraines.  ",
+Plucking,process,"Erosive process of particle detachment by moving glacial ice. In this process, basal ice freezes in rock surface cracks. As the main body of the glacial ice moves material around the ice in the cracks is pulled and plucked out. Also called quarrying.  ",
+Rain,,"Precipitation in the form of liquid water drops that have diameters greater than 0.5 mm, or, if widely scattered, the drops may be smaller.  The only other form of liquid precipitation, drizzle, is to be distinguished from rain in that drizzle drops are generally less than 0.5 mm in diameter, are very much more numerous, and reduce visibility much more than does light rain. For observing purposes, the intensity of rainfall at any given time and place may be classified as 1) ""light,"" the rate of fall varying between a trace and 0.25 cm (0.10 in.) per hour, the maximum rate of fall being no more than 0.025 cm (0.01 in.) in six minutes; 2) ""moderate,"" from 0.26 to 0.76 cm (0.11 to 0.30 in.) per hour, the maximum rate of fall being no more than 0.076 cm (0.03 in.) in six minutes; 3) ""heavy,"" over 0.76 cm (0.30 in.) per hour or more than 0.076 cm (0.03 in.) in six minutes. When rain gauge measurements are not readily available to determine the rainfall intensity, estimates may be made according to a descriptive system set forth in observing manuals.","Yes, another inconsistently defined term:
+
+Issues:
+
+- whether drops smaller than 0.5 mm are included as rain (in which case drizzle is a type of rain which the AMS would disagree with)
+
+- in Australia it appears that rain and showers are different"
+Snow,,,"Like ablation, snow is not consistently defined in the GCW glossary.  My notes about the range of definitions follow:
+
+There are several issues here:
+
+First, some definitions only discuss snow as precipitation and do not include snow accumulations on the ground.
+
+Second, definitions which include accumulation on the ground may or may not discuss the transition of snow into firn.
+
+Third, there seem to be at least two definitions of the transition of snow into firn (and a couple of different densities at which that occurs).
+
+In many cases, the differences between the definitions seem to be audience related.  It is conceivable that perhaps three or four definitions are needed:
+
+- for the general public (this can include both falling snow, impacts to visibility, and snow accumulations on the ground)
+- a more detailed meteorological definition that includes more of the physics of snow creation
+- one (if the distinctions between definitions that Cogley uses can be worked out) or two glaciological definitions that include the transition to firn
+
+"
+Sublimation,process,Process where ice changes into water vapor without first becoming liquid. This process requires approximately 680 calories of heat energy for each gram of water converted. The opposite of deposition.,"Yet another inconsistently defined term.  My notes follow:
+
+In physics and chemistry, sublimation only includes the process of going from a solid directly to a gas without passing through an intermediate liquid phase.  The reverse process is called deposition or desublimation.  Having the term used to mean both processes is inconsistent."
+Terminus,Parts of a glacier,"The lowest margin, end, or extremity of a glacier, also called the glacier toe or glacier snout. The term, the plural of which is either 'terminuses' or 'termini', is applicable primarily to glaciers with well-defined tongues, and to ice streams.",
+Transportation,process,"Transportation is the movement of material across the Earth's surface by water, wind, ice or gravity. It includes the physical processes of traction (dragging), suspension (being carried) and saltation (bouncing) and the chemical process of solution.",not in the GCW glossary - but is a geologic term
